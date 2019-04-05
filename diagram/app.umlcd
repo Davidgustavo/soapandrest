@@ -676,6 +676,151 @@
           "text": "+ list(): List\u003cDevice\u003e"
         }
       }
+    },
+    {
+      "type": "uml.Class",
+      "name": "Arquivos",
+      "attributes": [
+        "id:java.lang.String",
+        "photo:Image Upload (to Dropbox)",
+        "arquivos:java.lang.String"
+      ],
+      "methods": [],
+      "position": {
+        "x": 503,
+        "y": 277
+      },
+      "size": {
+        "width": 227.0625,
+        "height": 118.67371368408203
+      },
+      "angle": 0,
+      "multitenantContextJsonIgnore": "false",
+      "multitenantContextIgnoreEntities": "",
+      "role": "Auto",
+      "queries": [],
+      "realName": "",
+      "generateView": "Auto",
+      "isRest": "true",
+      "multitenantContext": "",
+      "restPath": "",
+      "id": "36d84081-4369-46b2-9da8-9ee475697bbf",
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "UUID.randomUUID().toString().toUpperCase()",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "pkType": "UUID",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        },
+        {
+          "name": "photo",
+          "type": "Image Upload (to Dropbox)",
+          "dbName": "photo",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Photo",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        },
+        {
+          "name": "arquivos",
+          "type": "java.lang.String",
+          "dbName": "arquivos",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Arquivos",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "referencedColumnName": "",
+          "isSearchable": false
+        }
+      ],
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "z": 14,
+      "cloudStorage": {
+        "name": "Dropbox",
+        "accessToken": "DJC3GwdSZWAAAAAAAAAAEUKWV7zphsUdS3LweI5McLDASbp-N6q_7gs7KtNZfc7p",
+        "clearDatabaseRecord": true
+      },
+      "attrs": {
+        "rect": {
+          "stroke": "yellow",
+          "stroke-width": 2
+        },
+        ".uml-class-name-rect": {
+          "height": 50,
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-attrs-rect": {
+          "height": 90,
+          "transform": "translate(0,50)"
+        },
+        ".uml-class-methods-rect": {
+          "height": 30,
+          "transform": "translate(0,140)"
+        },
+        ".uml-class-name-text": {
+          "fill": "#000",
+          "font-size": 12,
+          "text": "Arquivos",
+          "font-weight": "bold"
+        },
+        ".uml-class-attrs-text": {
+          "font-size": 11,
+          "text": "id\nphoto\narquivos\n"
+        },
+        ".uml-class-attrs-value": {
+          "ref-x": 76.0625,
+          "font-size": 11,
+          "text": "java.lang.String\nImage Upload (to Dropbox)\njava.lang.String\n"
+        },
+        ".uml-class-methods-text": {
+          "fill": "#0066FF",
+          "font-size": 11,
+          "text": ""
+        }
+      }
     }
   ],
   "selectedGroup": "1d7f906f-a526-482d-aaf4-08d227ae8c18",
@@ -694,7 +839,8 @@
       "cells": [
         "d2e50f97-0b9e-4037-94ba-af64568af247",
         "1df87f56-c5ba-47f5-8e68-82931f49b989",
-        "d92238a3-a37d-4cc6-a543-d0687dc207cd"
+        "d92238a3-a37d-4cc6-a543-d0687dc207cd",
+        "36d84081-4369-46b2-9da8-9ee475697bbf"
       ]
     }
   ]

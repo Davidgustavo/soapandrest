@@ -1,4 +1,5 @@
 window.dataSourceMap = window.dataSourceMap || [];
+window.dataSourceMap["app.Arquivos"] = { customId: "app.entity.Arquivos", serviceUrl: "api/cronapi/crud/app.entity.Arquivos", serviceUrlODATA: "/api/cronapi/odata/v2/app/Arquivos" };
 window.dataSourceMap["app.device"] = { customId: "device", serviceUrl: "api/cronapi/query/1jy88nt41afza/", serviceUrlODATA: "/api/cronapi/odata/v2/app/device" };
 window.dataSourceMap["app.User"] = { customId: "app.entity.User", serviceUrl: "api/cronapi/crud/app.entity.User", serviceUrlODATA: "/api/cronapi/odata/v2/app/User" };
 window.dataSourceMap["app.auth"] = { customId: "auth", serviceUrl: "api/cronapi/query/auth/", serviceUrlODATA: "/api/cronapi/odata/v2/app/auth" };
