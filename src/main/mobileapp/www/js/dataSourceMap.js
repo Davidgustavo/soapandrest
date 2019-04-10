@@ -1,8 +1,10 @@
 window.dataSourceMap = window.dataSourceMap || [];
 window.dataSourceMap["app.Arquivos"] = { customId: "app.entity.Arquivos", serviceUrl: "api/cronapi/crud/app.entity.Arquivos", serviceUrlODATA: "/api/cronapi/odata/v2/app/Arquivos" };
 window.dataSourceMap["app.device"] = { customId: "device", serviceUrl: "api/cronapi/query/1jy88nt41afza/", serviceUrlODATA: "/api/cronapi/odata/v2/app/device" };
+window.dataSourceMap["app.query736103"] = { customId: "consulta2", serviceUrl: "api/cronapi/query/consulta2/", serviceUrlODATA: "/api/cronapi/odata/v2/app/consulta2" };
 window.dataSourceMap["app.User"] = { customId: "app.entity.User", serviceUrl: "api/cronapi/crud/app.entity.User", serviceUrlODATA: "/api/cronapi/odata/v2/app/User" };
 window.dataSourceMap["app.auth"] = { customId: "auth", serviceUrl: "api/cronapi/query/auth/", serviceUrlODATA: "/api/cronapi/odata/v2/app/auth" };
 window.dataSourceMap["app.roles"] = { customId: "roles", serviceUrl: "api/cronapi/query/roles/", serviceUrlODATA: "/api/cronapi/odata/v2/app/roles" };
 window.dataSourceMap["app.Device"] = { customId: "app.entity.Device", serviceUrl: "api/cronapi/crud/app.entity.Device", serviceUrlODATA: "/api/cronapi/odata/v2/app/Device" };
+window.dataSourceMap["app.consulta2"] = { customId: "consulta2", serviceUrl: "api/cronapi/query/consulta2/", serviceUrlODATA: "/api/cronapi/odata/v2/app/consulta2" };
 window.dataSourceMap["app.Role"] = { customId: "app.entity.Role", serviceUrl: "api/cronapi/crud/app.entity.Role", serviceUrlODATA: "/api/cronapi/odata/v2/app/Role" };

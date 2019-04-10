@@ -1,1 +1,1 @@
-window.customModules = [];
+window.customModules = ['paypal-checkout'];

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly formTarget="" resourceType="JS" ruleDescription="paypal" ruleName="paypal" ruleSynchronous="false" ruleTimeout="" ruleType="I">
-  <metadata scale="1" scrollx="488.4" scrolly="-56.10000000000002" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <metadata scale="1" scrollx="488.4" scrolly="-53.79999999999984" target="Anb:u5+^,0vLkL9QIqn5"/>
   <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
     <field name="NAME">Executar</field>
     <comment h="80" pinned="false" w="160">paypal</comment>
@@ -12,38 +12,17 @@
             <field name="TEXT">sucesso</field>
           </shadow>
         </value>
-        <next>
-          <block colour="#487f7f" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Hd`jgBa~w17`_(Qei:G3" multilayer="true" namespace="cronapi.util.executeJavascriptNoReturn" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExecuta%20javascript%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20executa%20javascript%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Comando%20:%20Texto%3C/span%3E%3Cdiv%3EComando%20a%20ser%20executado%20(exemplo:%20alert('teste');).%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.executeJavascriptNoReturn%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.executeJavascriptNoReturn%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
-            <mutation name="{{cronapi.util.executeJavascriptNoReturn}}" return-raw-type="undefined">
-              <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Comando"/>
-            </mutation>
-            <value name="ARG0">
-              <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="N5VG$U$WME[B:cV=NP:Q" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
-                <field name="TEXT">paypal.Buttons().render('body')
-
-paypal.Buttons({
-    createOrder: function(data, actions) {
-      return actions.order.create({
-        purchase_units: [{
-          amount: {
-            value: '0.01'
-          }
-        }]
-      });
-    },
-    onApprove: function(data, actions) {
-      // Capture the funds from the transaction
-      return actions.order.capture().then(function(details) {
-        // Show a success message to your buyer
-        alert('Transaction completed by ' + details.payer.name.given_name);
-      });
-    }
-  }).render('#paypal-button-container');</field>
-              </shadow>
-            </value>
-          </block>
-        </next>
       </block>
     </statement>
+  </block>
+  <block colour="#487f7f" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Hd`jgBa~w17`_(Qei:G3" multilayer="true" namespace="cronapi.util.executeJavascriptNoReturn" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EExecuta%20javascript%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20executa%20javascript%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Comando%20:%20Texto%3C/span%3E%3Cdiv%3EComando%20a%20ser%20executado%20(exemplo:%20alert('teste');).%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.executeJavascriptNoReturn%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.executeJavascriptNoReturn%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn" x="-322" y="308">
+    <mutation name="{{cronapi.util.executeJavascriptNoReturn}}" return-raw-type="undefined">
+      <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Comando"/>
+    </mutation>
+    <value name="ARG0">
+      <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="N5VG$U$WME[B:cV=NP:Q" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+        <field name="TEXT">benner()</field>
+      </shadow>
+    </value>
   </block>
 </blockly>
