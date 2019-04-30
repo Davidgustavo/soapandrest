@@ -14,19 +14,19 @@
       "id": "paperCell",
       "runtimeClass": "cronos.widgets.joint.uml.Paper",
       "z": 1,
-      "dataSource": "jdbc/main",
+      "dataSource": "jdbc/NextMobiSignup",
       "namespace": "app",
       "apiPath": "src/main/webapp/raml/app/api.raml",
       "restPath": "/api/rest",
       "visionLikePackage": false,
       "chkApi": false,
-      "attrs": {},
       "restSecurity": {
         "get": "authenticated",
         "post": "authenticated",
         "put": "authenticated",
         "delete": "authenticated"
-      }
+      },
+      "attrs": {}
     },
     {
       "type": "uml.Class",

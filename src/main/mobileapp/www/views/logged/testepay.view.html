@@ -1,31 +1,40 @@
-<ion-view class="pane">
-  <ion-header-bar align-title="center" class="bar bar-positive" xattr-theme="bar-positive" data-component="crn-ion-header-bar">
-    <div class="buttons buttons-left header-item">
-      <button class="button button-clear" menu-toggle="left" data-component="crn-button" xattr-type="button-clear"> <i class="icon ion-navicon"></i> </button>
-    </div>
-    <h1 class="title">Title</h1>
-    <div class="buttons buttons-right header-item">
-      <button class="button button-clear" menu-toggle="right" data-component="crn-button" xattr-type="button-clear"> <i class="icon ion-navicon"></i> </button>
-    </div>
-    <ion-nav-bar class="bar-stable">
-        <ion-nav-back-button>
-        </ion-nav-back-button>
-    </ion-nav-bar>
-    <ion-nav-view></ion-nav-view>ss
-  </ion-header-bar>
-  <ion-content class="padding scroll-content has-header" data-component="crn-ion-content">
-        <div class="list">
-            <label class="item item-input">
-                Price:  <input type="text" ng-model="subscriptionPrice">
-            </label>
-            <label class="item item-input">
-                Subscription:  <input type="text" ng-model="subscriptionName">
-            </label>
-        </div>
+<ion-view class="pane" id="deviceready"> 
  
-        <button class="button button-positive button-block" ng-click="payWithPayPal()">
-            <i class="icon ion-card"></i>
-            Pay with PayPal
-        </button>
-    </ion-content>
+        <script type="text/javascript" src="cordova-2.2.0.js"></script>
+        <script type="text/javascript"></script>
+  <ion-header-bar align-title="center" class="bar bar-positive" xattr-theme="bar-positive" data-component="crn-ion-header-bar"> 
+    <div class="buttons buttons-left header-item"> 
+      <button class="button button-clear" menu-toggle="left" data-component="crn-button" xattr-type="button-clear"> <i class="icon ion-navicon"></i> </button> 
+    </div> 
+    <h1 class="title">Title</h1> 
+    <div class="buttons buttons-right header-item"> 
+      <button class="button button-clear" menu-toggle="right" data-component="crn-button" xattr-type="button-clear"> <i class="icon ion-navicon"></i> </button> 
+    </div> 
+    <ion-nav-bar class="bar-stable"> 
+      <ion-nav-back-button> 
+      </ion-nav-back-button> 
+    </ion-nav-bar> 
+    <ion-nav-view></ion-nav-view>ss 
+  </ion-header-bar> 
+  <ion-content class="padding scroll-content has-header" data-component="crn-ion-content"> 
+    <div class="list"> 
+      <label class="item item-input"> Price: <input type="text" ng-model="subscriptionPrice"> </label> 
+      <label class="item item-input"> Subscription: <input type="text" ng-model="subscriptionName"> </label> 
+    </div> 
+    <button class="button button-positive button-block" ng-click="payWithPayPal(); cronapi.client('js.blockly.Testwpay.Executar').run()"> <i class="icon ion-card"></i> Pay with PayPal </button> 
+   <div class=" app ">
+            <h1> Apache Cordova </h1>
+            <div id=" deviceready " class=" piscar ">
+                <p class=" event listening "> Conectando ao dispositivo </p>
+                <p class=" event received "> O dispositivo está pronto </p>
+                <button id=" buyNowBtn " ng-click="cronapi.client('js.blockly.Testepay.Executar').run()"> Compre agora! </button>
+                <button id=" buyInFutureBtn "> Pague no futuro! </button>
+                <button id=" profileSharingBtn "> Compartilhamento de perfil! </button>
+            </div>
+        </div>
+        <script type=" text / javascript " src=" cordova.js "> </script>
+        <script type=" texto / javascript " src=" js / paypal-mobile-js-helper.js "> </script>
+        <script type=" text / javascript " src=" js / PayPalPidavid.cronapi.js "> </script>
+  
+  </ion-content> 
 </ion-view>

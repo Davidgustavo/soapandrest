@@ -1,0 +1,20 @@
+{
+  "onSystemStarts": {
+    "blocklyClass": "blockly.Abrirhome",
+    "blocklyMethod": "Executar",
+    "blockly": {
+      "namespace": "blockly.Abrirhome",
+      "sourcePath": "src/main/java/blockly/abrirhome.blockly",
+      "language": "java",
+      "class": "blockly.Abrirhome",
+      "methods": [
+        {
+          "name": "Executar",
+          "hasReturn": "true",
+          "params": []
+        }
+      ]
+    },
+    "type": "server"
+  }
+}

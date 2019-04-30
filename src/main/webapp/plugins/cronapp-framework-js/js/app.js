@@ -75,6 +75,13 @@ var app = (function() {
               templateUrl: 'views/home.view.html'
             })
 
+            .state('testepay', {
+                url: "/teste",
+                cache: false,
+                controller: 'DashCtrl',
+                templateUrl: 'views/logged/testepay.view.html'
+            })
+
             .state('main', {
               url: "/",
               controller: 'HomeController',

@@ -10,6 +10,8 @@
     "author": "CronApp IDE",
     "license": "Apache-2.0",
     "dependencies": {
+        "card.io.cordova.mobilesdk": "^2.1.0",
+        "com.paypal.cordova.mobilesdk": "^3.5.0",
         "cordova-android": "^7.0.0",
         "cordova-plugin-buildinfo": "^2.0.2",
         "cordova-plugin-camera": "^4.0.3",
@@ -24,7 +26,8 @@
     "cordova": {
         "plugins": {
             "cordova-plugin-cronapp": {},
-            "cordova-plugin-whitelist": {}
+            "cordova-plugin-whitelist": {},
+            "com.paypal.cordova.mobilesdk": {}
         },
         "platforms": [
             "android"

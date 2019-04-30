@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="" resourceType="JS" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="" ruleType="I">
+  <metadata scale="1" scrollx="488.4" scrolly="-53.799999999999955" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#EBC944" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="_n/,re,L2n-Ajw]x`/RE" multilayer="false" namespace="cronapi.cordova.camera.getPicture" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20Imagem%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20uma%20imagem%20da%20Camera,%20Galeria,%20Album%20do%20dispositivo.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sucesso%20:%20Envio%20de%20comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Erro%20:%20Envio%20de%20comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tipo%20de%20destino%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Fonte%20da%20imagem%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tipo%20de%20M%C3%ADdia%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Permitir%20edi%C3%A7%C3%A3o%20:%20L%C3%B3gico%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.cordova.camera.getPicture%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.cordova.camera.getPicture%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.cordova.camera.getPicture}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STATEMENTSENDER" name="Sucesso"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STATEMENTSENDER" name="Erro"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Tipo de destino"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Fonte da imagem"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Tipo de Mídia"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.BOOLEAN" name="Permitir edição"/>
+        </mutation>
+        <field name="VAR_SENDERARG0">item</field>
+        <field name="VAR_SENDERARG1">item</field>
+        <value name="ARG2">
+          <block colour="#EBC944" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="~esAoHUh]5|Em4fwn0s3" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="0" value="DATA_URL"/>
+              <arg name="1" value="FILE_URI"/>
+              <arg name="2" value="NATIVE_URI"/>
+            </mutation>
+            <field name="SELECT">0</field>
+          </block>
+        </value>
+        <value name="ARG3">
+          <block colour="#EBC944" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="k?_B59SW.IQBF(B/-9vU" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="0" value="PHOTOLIBRARY"/>
+              <arg name="1" value="CAMERA"/>
+              <arg name="2" value="SAVEDPHOTOALBUM"/>
+            </mutation>
+            <field name="SELECT">0</field>
+          </block>
+        </value>
+        <value name="ARG4">
+          <block colour="#EBC944" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="KK9:[~PRMXo3Sz3Yx]B)" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="0" value="PICTURE"/>
+              <arg name="1" value="VIDEO"/>
+              <arg name="2" value="ALLMEDIA"/>
+            </mutation>
+            <field name="SELECT">0</field>
+          </block>
+        </value>
+        <value name="ARG5">
+          <block colour="#EBC944" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Du4*^byaR=)veMB9zYvb" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="false" value="Falso"/>
+              <arg name="true" value="Verdadeiro"/>
+            </mutation>
+            <field name="SELECT">false</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</blockly>

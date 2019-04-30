@@ -11,7 +11,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 @ComponentScan(basePackages = {
 	
-	"cronapp.framework.authentication.social",
 	"cronapp.framework.authentication.token",
 	"cronapp.framework.authentication.security",
 	"cronapp.framework.rest",
