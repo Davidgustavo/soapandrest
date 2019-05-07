@@ -11,7 +11,7 @@
     "license": "Apache-2.0",
     "dependencies": {
         "card.io.cordova.mobilesdk": "^2.1.0",
-        "com.paypal.cordova.mobilesdk": "^3.5.0",
+        "com.paypal.cordova.mobilesdk": "git+https://github.com/paypal/PayPal-Cordova-Plugin.git",
         "cordova-android": "^7.0.0",
         "cordova-plugin-buildinfo": "^2.0.2",
         "cordova-plugin-camera": "^4.0.3",
@@ -32,5 +32,6 @@
         "platforms": [
             "android"
         ]
-    }
+    },
+    "repository":{}
 }

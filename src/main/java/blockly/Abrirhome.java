@@ -21,7 +21,7 @@ public static Var Executar() throws Exception {
 
    public Var call() throws Exception {
     cronapi.util.Operations.callClientFunction(Var.valueOf("cronapi.screen.changeView"), Var.valueOf("#/home/public/home"));
-    return Var.VAR_NULL;
+    return br.com.mabilis.cronapi.boleto.Operations.gerarRemessa(Var.VAR_NULL, Var.VAR_NULL, Var.VAR_NULL, Var.VAR_NULL, Var.VAR_NULL);
    }
  }.call();
 }
